@@ -9,5 +9,3 @@ RUN curl -fSsL "https://golang.org/dl/go1.14.linux-amd64.tar.gz" | tar -C /usr/l
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 ENV GO111MODULE on
-
-

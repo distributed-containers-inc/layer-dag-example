@@ -1,0 +1,4 @@
+FROM ../base/Layerfile
+
+RUN BACKGROUND go run main.go
+EXPOSE WEBSITE localhost:8080
